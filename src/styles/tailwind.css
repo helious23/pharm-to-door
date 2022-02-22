@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply max-w-screen-xl mx-auto;
+}
+
+.input {
+  @apply w-full px-3 py-2 bg-gray-100 rounded-lg focus:outline-none focus:border-sky-400 border border-transparent transition-colors cursor-pointer;
+}
+
+.btn {
+  @apply text-lg font-medium focus:outline-none py-2 transition-colors;
+}
